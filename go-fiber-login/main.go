@@ -1,3 +1,10 @@
+// redis-cli GET login_aberto
+// "{\n  \"realname\":\"Aberto Doni Sianturi\",\n  \"email\":\"adss@gmail.com\",\n  \"password\":\"7c4a8d09ca3762af61e59520943dc26494f8941b\"\n}"
+
+// curl -X POST http://localhost:3000/login \
+//   -H "Content-Type: application/json" \
+//   -d '{"username":"aberto","password":"123456"}'
+
 package main
 
 import (
